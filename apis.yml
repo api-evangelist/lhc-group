@@ -28,6 +28,8 @@ apis:
     description: >-
       The LHC Group API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lhc-group
   - type: Website
     url: https://www.lhcgroup.com
 maintainers:
