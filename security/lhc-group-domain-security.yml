@@ -1,0 +1,26 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.lhcgroup.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug  5 14:28:01 2026 GMT
+  hsts: false
+- host: developer.lhcgroup.com
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,
+    certificate is not valid for ''developer.l'
+  hsts: null
+- host: api.lhcgroup.com
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,
+    certificate is not valid for ''api.lhcgrou'
+  hsts: null
+domains:
+- domain: lhcgroup.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
