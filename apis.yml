@@ -51,6 +51,12 @@ apis:
     description: >-
       The LHC Group API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/lhc-group-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/lhc-group-rate-limits.yml
+  - type: FinOps
+    url: finops/lhc-group-finops.yml
   - type: DomainSecurity
     url: security/lhc-group-domain-security.yml
   - type: LinkedIn
